@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
 
         <div className="space-y-6 animate-fadeIn">
-    <div className='flex flex-col md:flex-row items-center md:justify-between mx-auto '>
+    <div className='flex flex-col gap-10 md:gap-10 md:flex-row items-center md:justify-between mx-auto '>
            <div className='flex flex-col text-center md:text-left'>
            <div className="inline-block w-fit px-4 py-2 bg-blue-500/10 border    border-blue-500/30 rounded-full backdrop-blur-sm mb-4">
             <span className="text-blue-400 text-sm">Welcome to my portfolio</span>
@@ -62,12 +62,12 @@ const Hero = () => {
             </span>
           </h1>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-white  h-16 md:h-20">
+          <h2 className="text-3xl md:text-5xl font-bold text-white h-16 md:h-20">
             {displayText}
             <span className={`inline-block w-0.5 h-8 md:h-12 bg-cyan-400 ml-1 ${isTypingComplete ? 'animate-blink' : ''}`} />
           </h2>
 
-          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+          <p className="text-slate-400 pt-10 md:pt-0 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
             I'm Akinrinde Joel, a passionate frontend developer. <br />
             Crafting exceptional digital experiences with modern web technologies.
             Passionate about clean code, beautiful interfaces, and seamless user interactions.
@@ -101,7 +101,7 @@ const Hero = () => {
 
 
 
-           <div className="w-[400px] h-[400px] mx-auto  rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 p-1 animate-fadeIn">
+           <div className="max-w-[400px] max-h-[400px] mx-auto  rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 p-1 animate-fadeIn">
             <img
               src={image}
               alt="Profile"
