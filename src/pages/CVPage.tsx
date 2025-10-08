@@ -1,5 +1,6 @@
 import { Download, ArrowLeft, Briefcase, GraduationCap, Award, Mail, Phone, MapPin, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import profiles from '../assets/profile.jpg';
 
 const CVPage = () => {
   const handleDownload = () => {
@@ -37,7 +38,7 @@ const CVPage = () => {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-5xl font-bold flex-shrink-0">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src={profiles}
                   alt="Profile"
                   className="w-full h-full rounded-full object-cover"
                 />
@@ -45,26 +46,26 @@ const CVPage = () => {
 
               <div className="flex-1 text-center md:text-left">
                 <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                  John Developer
+                  Akinrinde Joel
                 </h1>
-                <p className="text-xl text-slate-300 mb-4">Senior Frontend Developer</p>
+                <p className="text-xl text-slate-300 mb-4">Frontend Developer</p>
 
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start text-sm text-slate-400">
                   <div className="flex items-center gap-2">
                     <Mail className="w-4 h-4" />
-                    <span>john.dev@example.com</span>
+                    <span>softwareengineerjoycy@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+234 808-2850-053</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="w-4 h-4" />
-                    <span>San Francisco, CA</span>
+                    <span>Oyo state, Nigeria</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="w-4 h-4" />
-                    <span>portfolio.dev</span>
+                    <span>Joel.dev</span>
                   </div>
                 </div>
               </div>
@@ -94,52 +95,56 @@ const CVPage = () => {
               </span>
             </h2>
 
-            <div className="space-y-8">
-              <div className="relative pl-8 border-l-2 border-blue-400/30">
-                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-400"></div>
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-white">Senior Frontend Developer</h3>
-                  <p className="text-blue-400">TechCorp Inc. • San Francisco, CA</p>
-                  <p className="text-slate-500 text-sm">Jan 2022 - Present</p>
-                </div>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>Led development of enterprise-level React applications serving 100K+ users</li>
-                  <li>Reduced page load time by 40% through performance optimization techniques</li>
-                  <li>Mentored junior developers and conducted code reviews</li>
-                  <li>Implemented comprehensive testing strategy with 90% code coverage</li>
-                </ul>
-              </div>
+          <div className="space-y-8">
+  {/* Product Square */}
+  <div className="relative pl-8 border-l-2 border-blue-400/30">
+    <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-400"></div>
+    <div className="mb-4">
+      <h3 className="text-xl font-semibold text-white">Frontend Developer & Intern Supervisor</h3>
+      <p className="text-blue-400">Product Square • Remote</p>
+      <p className="text-slate-500 text-sm">Nov 2023 - Oct 2024</p>
+    </div>
+    <ul className="list-disc list-inside text-slate-300 space-y-2">
+      <li>Developed and maintained responsive React-based web applications for clients.</li>
+      <li>Collaborated with cross-functional teams to design and build seamless digital products.</li>
+      <li>Supervised and guided interns in frontend development, ensuring best practices and clean code.</li>
+      <li>Optimized performance and implemented reusable UI components for scalability.</li>
+    </ul>
+  </div>
 
-              <div className="relative pl-8 border-l-2 border-blue-400/30">
-                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-cyan-400"></div>
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-white">Frontend Developer</h3>
-                  <p className="text-cyan-400">Digital Solutions • Remote</p>
-                  <p className="text-slate-500 text-sm">Mar 2020 - Dec 2021</p>
-                </div>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>Built responsive web applications using React and TypeScript</li>
-                  <li>Collaborated with UX designers to implement pixel-perfect designs</li>
-                  <li>Integrated RESTful APIs and managed application state</li>
-                  <li>Contributed to open-source projects and internal component library</li>
-                </ul>
-              </div>
+  {/* TechLift */}
+  <div className="relative pl-8 border-l-2 border-blue-400/30">
+    <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-cyan-400"></div>
+    <div className="mb-4">
+      <h3 className="text-xl font-semibold text-white">Frontend Developer (Volunteer)</h3>
+      <p className="text-cyan-400">TechLift Community • Remote</p>
+      <p className="text-slate-500 text-sm">May 2024 - Present</p>
+    </div>
+    <ul className="list-disc list-inside text-slate-300 space-y-2">
+      <li>Volunteering as a frontend developer to build and maintain the TechLift community website.</li>
+      <li>Collaborating with the team to design engaging, user-friendly interfaces that improve community interaction.</li>
+      <li>Implementing responsive layouts and animations using modern frontend frameworks.</li>
+      <li>Contributing to the technical direction of the community’s digital presence.</li>
+    </ul>
+  </div>
 
-              <div className="relative pl-8 border-l-2 border-blue-400/30">
-                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-500"></div>
-                <div className="mb-4">
-                  <h3 className="text-xl font-semibold text-white">Junior Frontend Developer</h3>
-                  <p className="text-blue-400">StartupXYZ • New York, NY</p>
-                  <p className="text-slate-500 text-sm">Jun 2019 - Feb 2020</p>
-                </div>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>Developed and maintained web applications using JavaScript and React</li>
-                  <li>Implemented responsive designs for mobile and desktop platforms</li>
-                  <li>Participated in agile development processes and daily stand-ups</li>
-                  <li>Fixed bugs and improved application performance</li>
-                </ul>
-              </div>
-            </div>
+  {/* XanoTech */}
+  <div className="relative pl-8 border-l-2 border-blue-400/30">
+    <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-500"></div>
+    <div className="mb-4">
+      <h3 className="text-xl font-semibold text-white">Frontend Developer</h3>
+      <p className="text-blue-400">XanoTech • Remote</p>
+      <p className="text-slate-500 text-sm">Jan 2025 - Present</p>
+    </div>
+    <ul className="list-disc list-inside text-slate-300 space-y-2">
+      <li>Building and optimizing user interfaces for web applications using Next.js, Typerscript and Tailwind CSS.</li>
+      <li>Collaborating with backend developers to integrate APIs and enhance application functionality.</li>
+      <li>Implementing motion designs and interactive elements for better user engagement.</li>
+      <li>Contributing ideas and solutions to improve product design and frontend workflow efficiency.</li>
+    </ul>
+  </div>
+</div>
+
           </section>
 
           {/* Education */}
@@ -154,8 +159,8 @@ const CVPage = () => {
             <div className="space-y-6">
               <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
                 <h3 className="text-xl font-semibold text-white mb-2">Bachelor of Science in Computer Science</h3>
-                <p className="text-blue-400 mb-1">University of California, Berkeley</p>
-                <p className="text-slate-500 text-sm">2015 - 2019 • GPA: 3.8/4.0</p>
+                <p className="text-blue-400 mb-1">Ladoke Akintola University Of Technology, Nigeria</p>
+                {/* <p className="text-slate-500 text-sm">2015 - 2019 • GPA: 3.8/4.0</p> */}
               </div>
             </div>
           </section>
@@ -184,7 +189,7 @@ const CVPage = () => {
               <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
                 <h3 className="text-lg font-semibold text-white mb-3">Tools & Others</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Git', 'Vite', 'Webpack', 'Jest', 'Cypress', 'Figma', 'REST APIs', 'Web3'].map((skill) => (
+                  {['Git', 'Vite', 'Webpack', 'Figma', 'REST APIs', 'Postman'].map((skill) => (
                     <span key={skill} className="px-3 py-1 text-sm bg-cyan-500/10 border border-cyan-400/30 rounded-full text-cyan-400">
                       {skill}
                     </span>
@@ -206,20 +211,13 @@ const CVPage = () => {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <p className="text-slate-300">AWS Certified Developer - Associate</p>
+                <p className="text-slate-300">Postman Certificate - Postman</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></div>
-                <p className="text-slate-300">React Advanced Certification - Meta</p>
+                <p className="text-slate-300">Acoms Chairman - Assiociation</p>
               </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <p className="text-slate-300">Contributed to 15+ open-source projects with 500+ GitHub stars</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></div>
-                <p className="text-slate-300">Speaker at ReactConf 2023 - "Building Performant Web Apps"</p>
-              </div>
+             
             </div>
           </section>
         </div>

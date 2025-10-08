@@ -10,7 +10,7 @@ const HomePage = () => {
     <>
       <Navigation />
 
-      <main className="relative z-10">
+      <main className="relative z-10  items-center  max-w-[1500px] mx-auto">
         <Hero />
         <About />
         <Skills />
@@ -20,7 +20,7 @@ const HomePage = () => {
 
       <footer className="relative z-10 border-t border-white/10 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-6 py-8 text-center">
-          <p className="text-slate-400">© 2025 Frontend Developer Portfolio. Built with React & Tailwind CSS</p>
+          <p className="text-slate-400">© 2025 Joel Frontend Developer Portfolio.</p>
         </div>
       </footer>
     </>

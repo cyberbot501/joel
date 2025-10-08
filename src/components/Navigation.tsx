@@ -35,7 +35,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            &lt;Dev /&gt;
+            &lt;Dev~Cyberbot501 /&gt;
           </button>
 
           {/* Desktop Menu */}

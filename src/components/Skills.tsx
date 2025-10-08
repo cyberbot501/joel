@@ -21,16 +21,16 @@ const Skills = () => {
     {
       category: 'Tools & Others',
       skills: [
-        { name: 'Vite', level: 90 },
+        { name: 'ThreeJS', level: 90 },
         { name: 'Figma', level: 80 },
-        { name: 'Web3', level: 75 },
-        { name: 'Performance', level: 87 },
+        { name: 'ShadCN', level: 85 },
+        { name: 'Postman', level: 80 },
       ],
     },
   ];
 
   return (
-    <section id="skills" className="py-32 px-6 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+    <section id="skills" className="py-10 px-6 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -77,7 +77,7 @@ const Skills = () => {
 
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-8 flex-wrap justify-center">
-            {['React', 'TypeScript', 'Tailwind', 'Next.js', 'Vite', 'Git', 'Figma', 'Web3'].map(
+            {['React', 'TypeScript', 'Tailwind', 'Next.js', 'Vite', 'Git', 'Figma', 'Postman'].map(
               (tech, index) => (
                 <div
                   key={index}

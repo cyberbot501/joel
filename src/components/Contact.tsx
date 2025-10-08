@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-32 px-6">
+    <section id="contact" className="py-10 pb-32 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -51,7 +51,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm">Email</p>
-                    <p className="text-white">dev@example.com</p>
+                    <p className="text-white">softwareengineerjoycy@gmail.com</p>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm">Location</p>
-                    <p className="text-white">Remote / Worldwide</p>
+                    <p className="text-white">Remote / Hybrid</p>
                   </div>
                 </div>
               </div>
