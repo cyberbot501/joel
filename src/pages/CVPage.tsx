@@ -1,6 +1,6 @@
 import { Download, ArrowLeft, Briefcase, GraduationCap, Award, Mail, Phone, MapPin, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import profiles from '../assets/profile.jpg';
+import profil from '../assets/profile.jpg';
 
 const CVPage = () => {
   const handleDownload = () => {
@@ -39,7 +39,7 @@ const CVPage = () => {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-5xl font-bold flex-shrink-0">
                 <img
-                  src={profiles}
+                  src={profil}
                   alt="Profile"
                   className="w-full h-full rounded-full object-cover"
                 />
