@@ -101,7 +101,7 @@ const Hero = () => {
 
 
 
-           <div className="max-w-[400px] max-h-[400px] mx-auto  rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 p-1 animate-fadeIn">
+           <div className="md:w-[400px] md:h-[400px]  mx-auto  rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 p-1 animate-fadeIn">
             <img
               src={image}
               alt="Profile"
