@@ -75,7 +75,7 @@ const Hero = () => {
 
           <div className="flex items-center justify-start gap-4 pt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/cyberbot501"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg backdrop-blur-sm transition-all hover:scale-110 hover:border-blue-400/50"
@@ -83,7 +83,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/akinrinde-joel"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg backdrop-blur-sm transition-all hover:scale-110 hover:border-blue-400/50"
@@ -91,7 +91,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:dev@example.com"
+              href="mailto:softwareengineerjoycy@gmail.com"
               className="p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg backdrop-blur-sm transition-all hover:scale-110 hover:border-blue-400/50"
             >
               <Mail className="w-6 h-6" />
