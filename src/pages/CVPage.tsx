@@ -1,6 +1,6 @@
 import { Download, ArrowLeft, Briefcase, GraduationCap, Award, Mail, Phone, MapPin, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import profil from '../assets/profile.jpg';
+import profil from '../assets/profile copy.jpg';
 
 const CVPage = () => {
   const handleDownload = () => {
