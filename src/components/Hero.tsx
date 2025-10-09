@@ -116,7 +116,7 @@ const Hero = () => {
               onClick={() => scrollToSection('projects')}
               className="px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105"
             >
-              View My Work
+              View My Works
             </button>
             <button
               onClick={() => scrollToSection('contact')}
