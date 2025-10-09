@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
-import image from '../assets/profile.jpg';
+import image from '../assets/profile copy.jpg';
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
