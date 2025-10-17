@@ -161,7 +161,7 @@ const CVPage = () => {
               <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
                 <h3 className="text-xl font-semibold text-white mb-2">Bachelor of Science in Computer Science</h3>
                 <p className="text-blue-400 mb-1">Ladoke Akintola University Of Technology, Nigeria</p>
-                {/* <p className="text-slate-500 text-sm">2015 - 2019 • GPA: 3.8/4.0</p> */}
+                <p className="text-slate-500 text-sm">2015 - 2019</p>
               </div>
             </div>
           </section>
@@ -190,7 +190,7 @@ const CVPage = () => {
               <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
                 <h3 className="text-lg font-semibold text-white mb-3">Tools & Others</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Git', 'Vite', 'Webpack', 'Figma', 'REST APIs', 'Postman'].map((skill) => (
+                  {['Git', 'Vite', 'Webpack', 'Figma', 'REST APIs', 'Postman', 'Team Management', 'Time Management', 'Performance'].map((skill) => (
                     <span key={skill} className="px-3 py-1 text-sm bg-cyan-500/10 border border-cyan-400/30 rounded-full text-cyan-400">
                       {skill}
                     </span>
